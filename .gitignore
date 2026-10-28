@@ -1,0 +1,16 @@
+.venv/
+__pycache__/
+*.egg-info/
+.pytest_cache/
+.DS_Store
+# Datos crudos: se descargan, no se versionan (ver README de cada aplicación).
+aplicaciones/*/datos/
+# Auxiliares de LaTeX
+teoria/.build/
+*.aux
+*.log
+*.out
+*.toc
+*.fls
+*.fdb_latexmk
+*.synctex.gz

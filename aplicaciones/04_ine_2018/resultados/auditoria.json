@@ -1,0 +1,26 @@
+{
+  "n_arrivals": 7754,
+  "n_muestra": 7787,
+  "excluidas_muestra": 33,
+  "no_reportantes_evaluables": 1468,
+  "remesas_fuera_arrivals": 21,
+  "sha256": {
+    "data/arrivals_tbl.rda": "603ed7c31e7865c71c29d47c76ebfd4e56812496215fea5ae363060d84f7913d",
+    "data/conteo_2018.rda": "05b7ae75d6f5df417ef01613688efe11dfe8982061a4ecdc1bec1c934a2dc34e",
+    "data-raw/4-ConteoRapido18MUESTRA-ELECCION-PRESIDENCIAL.csv": "04e907974a56c9146e03f8a45e6d5dac5b80627e5b7822caa6c58817c8bdaf24",
+    "data-raw/REMESAS0100020000.txt": "cb77d7ead88f39a346888f19aa773766df30ab683e4f53cd0b06ca9eb4896001"
+  },
+  "commit_observado": "86c7543721c423de76b9194c02f05c9caa224fa4",
+  "commit_referido_fuente": "86c75437",
+  "semilla": 1000,
+  "replicas": 20,
+  "alpha": 0.1,
+  "universo": "7,754 casillas de arrivals_tbl; no toda la muestra diseñada",
+  "python": "3.13.16",
+  "versiones": {
+    "numpy": "2.5.3",
+    "pandas": "3.0.5",
+    "scikit-learn": "1.9.1",
+    "rdata": "1.1.0"
+  }
+}

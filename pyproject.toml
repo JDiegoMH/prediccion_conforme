@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "conforme"
+version = "0.1.0"
+description = "Predicción conforme: teoría y aplicaciones"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = ["numpy>=2", "scipy>=1.11"]
+
+[project.optional-dependencies]
+aplicaciones = ["pandas>=2", "scikit-learn>=1.5", "matplotlib>=3.8", "xlrd>=2.0.1,<3", "rdata>=1.1,<2"]
+pruebas = ["pytest>=8"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

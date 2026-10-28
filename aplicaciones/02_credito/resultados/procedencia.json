@@ -1,0 +1,17 @@
+{
+  "estado": "reejecutado desde XLS UCI",
+  "semilla": 20261008,
+  "replicas": 20,
+  "alpha": 0.1,
+  "particion": "60/20/20",
+  "sha256_datos": "56c885f84457f6680f8438f02bfcdac9579323d8a94465ee5f26e32baa727602",
+  "python": "3.13.16",
+  "versiones": {
+    "numpy": "2.5.3",
+    "pandas": "3.0.5",
+    "scipy": "1.18.1",
+    "scikit-learn": "1.9.1",
+    "xlrd": "2.0.2"
+  },
+  "nota": "EMC es error Monte Carlo entre particiones de base fija; con una réplica no es estimable."
+}
